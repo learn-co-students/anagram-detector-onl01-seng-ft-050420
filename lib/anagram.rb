@@ -8,6 +8,4 @@ class Anagram
     def match(sentence)
         sentence.select{|sentence_word| sentence_word.split("").sort == @word.split("").sort}
     end
-
-
 end
